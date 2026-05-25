@@ -63,10 +63,12 @@
 .navbar-btn:hover {
     background-color: #0181a1;
 }
+
 .navbar-outline:hover {
     background-color: #05a6cf14 !important;
     color: black !important;
 }
+
 .common-heading {
     font-weight: 900;
     color: var(--background-color);
@@ -91,4 +93,45 @@
         font-size: 25px !important;
     }
 
+}
+
+.pms-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+
+}
+
+.pms-icons {
+    width: 68px;
+    height: 68px;
+    background-color: #1299bb4b;
+}
+
+.pms-icons svg {
+    width: 35px !important;
+    height: 35px !important;
+    fill: #1299bb4c;
+    stroke: var(--background-color);
+    stroke-width: 30;
+}
+
+.pms-parent {
+    transition: 0.3s;
+}
+
+.pms-parent:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.svg-orange {
+    background-color: rgba(246, 178, 53, 0.329);
+   
+}
+
+.svg-orange svg {
+    color: orange !important;
+    fill: rgba(255, 166, 0, 0.269);
+    stroke: orange;
 }

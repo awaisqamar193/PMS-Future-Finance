@@ -135,3 +135,43 @@
     fill: rgba(255, 166, 0, 0.269);
     stroke: orange;
 }
+.list-para {
+    font-size: 17px;
+}
+.svg-var svg {
+    fill: var(--background-color);
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    display: block;
+}
+@media (max-width: 576px) {  
+    .svg-var  { 
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important; 
+        text-align: center !important;   
+    }
+    .apr-heading {
+        font-size: 16px;
+        
+    }
+    
+}
+@media  (min-width: 768px) and (max-width: 992px) {  
+    .svg-var h4 {
+        font-size: 8px !important;
+
+    }
+    .svg-var {
+        margin-bottom: 0 !important;
+    }
+    .svg-var SVG {
+        width: 30px;
+        height: 30px;
+    }
+    .svg-var p {
+        font-size: 15px;
+    }
+    
+}

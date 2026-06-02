@@ -175,3 +175,19 @@
     }
     
 }
+.no-div {
+    width: 55px;
+    height: 55px;
+    background-color: var(--background-color);
+     font-family: "Noto Serif", serif;
+}
+.no-para {
+    font-size: 17px;
+    
+}
+.work-card {
+    transition: all .3s ease;
+}
+.work-card:hover {
+    transform: translateY(-10px);
+}

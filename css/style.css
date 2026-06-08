@@ -273,3 +273,9 @@
     transform: translateX(-50%);
 
 }
+
+.accordion-button:hover {
+    color: var(--background-color) !important;
+    background-color: white !important;
+
+}

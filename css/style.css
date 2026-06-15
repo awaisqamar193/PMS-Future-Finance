@@ -8,6 +8,13 @@
     max-width: 1220px !important;
 }
 
+@media (max-width: 576px) {
+    .hide-somewhere {
+        display: none !important;
+    }
+
+}
+
 .navbar-btn {
     background-color: var(--background-color);
     font-family: "Open Sans", sans-serif;
@@ -326,4 +333,55 @@
 
 .last-border {
     border-top: 1px solid rgba(255, 255, 255, 0.297);
+}
+
+.services-icon {
+    width: 55px;
+    height: 55px;
+    background-color: #0093b82f;
+}
+
+.services-icon i {
+    color: var(--background-color) !important;
+}
+
+.service-btn {
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
+}
+
+.service-list i {
+    color: var(--background-color) !important;
+
+}
+
+.service-color {
+    background-color: rgba(255, 166, 0, 0.292);
+}
+
+.service-color i {
+    color: orange !important;
+}
+
+.orange-outline {
+    border: 1px solid rgb(255, 111, 0);
+    color: orange;
+    transition: all .3s ease;
+}
+
+.orange-outline:hover {
+    background-color: #07aed718;
+    color: black;
+}
+
+.service-para {
+    font-size: 17px;
+}
+
+.hover-effect {
+    transition: all .2s ease;
+}
+
+.hover-effect:hover {
+    box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.155) !important;
 }

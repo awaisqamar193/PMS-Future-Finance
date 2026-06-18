@@ -391,3 +391,24 @@
 .differ-svg {
     fill: rgb(255, 119, 0) !important;
 }
+.var-para {
+    color: var(--background-color);
+}
+.icon-color i {
+    color: rgb(255, 140, 0) !important;
+}
+.test-svg {
+    fill: var(--background-color) !important;
+}
+.testimonial-card {
+    background-color: rgba(105, 202, 247, 0.13);
+}
+.second-testimonial-card {
+    background-color: rgba(255, 166, 0, 0.094);
+}
+.testimonial-para {
+    font-size: 18px;
+}
+.common-bold  {
+    font-weight: 900;
+}

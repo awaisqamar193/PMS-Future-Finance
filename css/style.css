@@ -431,6 +431,35 @@
 .blog-heading {
     font-family: "Noto Serif", serif;
 }
+
 .blog-para {
     font-size: 18px;
+}
+
+.f-size {
+    font-size: 13px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 200px;
+    transition: all .5s ease;
+}
+
+.blog-card:hover {
+    cursor: pointer;
+}
+
+.blog-card-heading {
+    font-weight: 900;
+    font-family: "PT Serif", serif;
+}
+
+.blog-card-para {
+    font-size: 15px;
+}
+
+.blog-card:hover img {
+    overflow: hidden;
+    transform: scale(1.1) !important;
 }

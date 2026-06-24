@@ -463,3 +463,6 @@
     overflow: hidden;
     transform: scale(1.1) !important;
 }
+.common-size {
+    font-size: 18px;
+}

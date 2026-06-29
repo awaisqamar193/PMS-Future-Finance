@@ -466,3 +466,18 @@
 .common-size {
     font-size: 18px;
 }
+.contact-span {
+    color:  var(--background-color);
+}
+.pms-icons i {
+    color: var(--background-color);
+}
+.svg-orange i {
+    color: rgb(255, 115, 0) !important;
+}
+.contact-para {
+    font-size: 18px;
+}
+.para-span {
+    font-size: 14px !important;
+}
